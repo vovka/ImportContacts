@@ -1,0 +1,20 @@
+<!--
+     We strongly recommend that you store the application key file in
+     an area of your server that cannot be accessed by the Web. The
+     key should never be exposed externally.
+
+     We have also denied access to the file in the .htaccess file
+     included with this implementation.
+-->
+
+<!--windowslivelogin>
+  <appid>00163FFF80003302</appid>
+  <secret>ApplicationKey123</secret>
+  <securityalgorithm>wsignin1.0</securityalgorithm>
+</windowslivelogin-->
+
+<windowslivelogin>
+  <appid>0000000044039125</appid>
+  <secret>FDxVSucsozP2Qh5Xw5NwTcXfuXkfHdjt</secret>
+  <securityalgorithm>wsignin1.0</securityalgorithm>
+</windowslivelogin>

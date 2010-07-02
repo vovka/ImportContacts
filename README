@@ -1,15 +1,18 @@
 Windows Live Contacts API - Beta 1.0:
-	http://msdn.microsoft.com/en-us/library/bb463989.aspx
-	
+  http://msdn.microsoft.com/en-us/library/bb463989.aspx
+  
+  Windows Live ID Delegated Authentication SDK for Application Providers: 
+    http://msdn.microsoft.com/en-us/library/cc287637.aspx
+  
 Google Contacts Data API: 
-	Developer's Guide: Protocol
-		http://code.google.com/intl/ru/apis/contacts/docs/3.0/developers_guide_protocol.html
-		
+  Developer's Guide: Protocol
+    http://code.google.com/intl/ru/apis/contacts/docs/3.0/developers_guide_protocol.html
+    
 Yahoo! Social API Reference: 
-	Contacts: 
-		http://developer.yahoo.com/social/rest_api_guide/contacts-resource.html
+  Contacts: 
+    http://developer.yahoo.com/social/rest_api_guide/contacts-resource.html
 
 Ruby Mechanize docs: 
-	http://mechanize.rubyforge.org/mechanize/Mechanize.html
+  http://mechanize.rubyforge.org/mechanize/Mechanize.html
 
 

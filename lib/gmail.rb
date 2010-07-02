@@ -1,7 +1,5 @@
-require 'mechanize'
-
 module ImportContacts
-  class Gmail
+  class Gmail < ImportContacts::Base
     AUTH_URL = 'https://www.google.com/accounts/ClientLogin'
     DISTINGUISH_AUTH_TOKEN_REGEXP = /\nAuth=(.*)\n/
     APP_NAME_FOR_AUTH_REQUEST = 'Home-RubyContactsImporter-1'
@@ -16,10 +14,6 @@ module ImportContacts
       
       private
       
-        def client
-          @client ||= Mechanize.new
-        end
-        
         def standardize_email_parameter options
           standardize_parameter 'Email', options, [:username, :user_name, :login]
         end
@@ -57,9 +51,7 @@ module ImportContacts
         
         def get_contacts
           client.request_headers = {
-            'Authorization' => "GoogleLogin auth=\"#{@@auth_token}\""
-          }
-          p client.request_headers
+            'Authorization' => "GoogleLogin auth=\"#{@@auth_token}\"" }
           client.get contacts_feed_url
         end
         
